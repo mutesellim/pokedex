@@ -74,7 +74,7 @@ class _PokemonListState extends State<PokemonList> {
                                   width: 100,
                                   height: 100,
                                   child: FadeInImage.assetNetwork(
-                                      placeholder: "PLACEHOLDER",
+                                      placeholder: "" ,
                                       image: poke.img),
                                 ),
                                 Text(
@@ -130,8 +130,10 @@ class _PokemonListState extends State<PokemonList> {
                                   width: 200,
                                   height: 150,
                                   child: FadeInImage.assetNetwork(
-                                      placeholder: "PLACEHOLDER",
-                                      image: poke.img,fit: BoxFit.contain,),
+                                    placeholder: "" ,
+                                    image: poke.img,
+                                    fit: BoxFit.contain,
+                                  ),
                                 ),
                                 Text(
                                   poke.name,
